@@ -1,0 +1,42 @@
+{
+    "name": "gsedesktop",
+    "version": "0.0.0",
+    "description": "Green Screen Effects for Desktop",
+    "keywords": [
+        "electron"
+    ],
+    "homepage": "https://github.com/JeremyGamer13/GSEDesktop#readme",
+    "bugs": {
+        "url": "https://github.com/JeremyGamer13/GSEDesktop/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeremyGamer13/GSEDesktop.git"
+    },
+    "license": "MIT",
+    "author": "JeremyGamer13",
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "electron . --trace-warnings",
+        "dev": "nodemon"
+    },
+    "dependencies": {
+        "auth-bearer-parser": "^1.0.2",
+        "body-parser": "^1.20.2",
+        "canvas": "^3.1.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.19.2",
+        "glob": "^11.0.2",
+        "screenshot-desktop": "^1.15.1",
+        "sync-json-database": "^1.0.4",
+        "uiohook-napi": "^1.5.4",
+        "uuid": "^11.0.5"
+    },
+    "devDependencies": {
+        "@electron/rebuild": "^3.7.2",
+        "electron": "^34.2.0",
+        "nodemon": "^3.1.10"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "index.js",
+        ".env",
+        "src/",
+        "assets/",
+        "node_modules/"
+    ],
+    "ignoreRoot": [".git"],
+    "ext": "js,json,html,css,bat,png,jpeg,jpg,jfif,gif,mp3,ogg,wav,flac,mp4,webm,webp",
+    "exec": "electron . --gsed-reloads-alot --trace-warnings"
+}
